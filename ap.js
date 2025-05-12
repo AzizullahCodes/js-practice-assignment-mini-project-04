@@ -151,7 +151,42 @@
 // var time_T      = +(Time); 
 // var interest    = (principal_p * rate_R * time_T) / 100;
 // alert('The Interest is: ' + interest);
-// ________________________ small-project- 17(Average of three numbers)______________________ 
-var number1 = prompt('Enter the number');
-var number2 = prompt('Enter second number');
- 
+// ________________________ small-project- 17(swap to numbers)______________________ 
+// var a = prompt('Enter the first  number (a)');
+// var b = prompt('Enter the second number (b)');
+// alert("Before swapping :\na = " + a + "\nb = " + b);
+// // ======== swap using a temporary variable 
+// let temp = a;
+// a = b;
+// b = temp;
+// // ===== show after swapping 
+// alert("After swapping: \na = " + a + "\nb = " + b); 
+// // 
+// ________________________ small-project- 18(swap to numbers)______________________ 
+// var x = prompt('Enter first number');
+// var y = prompt('Enter second number');
+// alert("Before swapping the value of x = " + x + "\n" + " Before swapping the value of y = " + y);
+// var temporaryVariable = x;
+// x = y;
+// y = temporaryVariable;
+// alert('After swapping the value of x = ' + x + '\n' + 'The value of y = ' + y);
+// ________________________ small-project- 18(swap two words)______________________ 
+// var firstWord = prompt('Enter first word');
+// var secondWord = prompt('Enter second word');
+// alert('The first word before swapping = ' + firstWord + '\n' + 'The second word before swapping = ' + secondWord);
+//  var temporaryVariable = firstWord;
+//  firstWord = secondWord;
+//  secondWord = temporaryVariable;
+//  alert('The first word after swapping = ' + firstWord + '\n' + 'The second word after swapping = '+ secondWord);
+// ________________________ small-project- 17(swap to numbers)______________________ 
+var enter1stNumber = prompt('Enter first number');
+var enter2ndNumber = prompt('Enter second number');
+var enter3rdNumber = prompt('Enter third number');
+// show before swapping
+alert('The first no before swappin = '+ enter1stNumber + '\n' + 'The second no before swapping = ' + enter2ndNumber + '\n' + 'The third no before swapping = ' + enter3rdNumber);
+
+var temporaryVariable = enter1stNumber;
+enter1stNumber = enter2ndNumber;
+enter2ndNumber = enter3rdNumber;
+enter3rdNumber  = temporaryVariable;
+alert('The first no after swapping = ' + enter1stNumber + '\n' + 'The second no after swapping = ' + enter2ndNumber + '\n' + 'The third no after swapping = ' + enter3rdNumber);
