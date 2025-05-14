@@ -8,7 +8,7 @@
 //  var sum = num1 + num2;
 // // show the result
 //  alert("The sum is: " + sum);
-// // ________________ small-project- 01(simple calculator -multiplication)___________
+// // ________________ small-project- 02(simple calculator -multiplication)___________
 //   var number1 = prompt('Enter first number');
 //   var number2 = prompt('Enter second number');
 // //   the values that we take from user will come in form 
@@ -176,7 +176,7 @@
 //  x = y;
 //  y = temporaryVariable;
 // alert('After swapping the value of x = ' + x + '\n' + 'The value of y = ' + y);
-// // ________________________ small-project- 18(swap two words)______________________ 
+// // ________________________ small-project- 19(swap two words)______________________ 
 //  var firstWord = prompt('Enter first word');
 //  var secondWord = prompt('Enter second word');
 //   alert('The first word before swapping = ' + firstWord + '\n' + 'The second word before swapping = ' + secondWord);
@@ -184,7 +184,7 @@
 //   firstWord = secondWord;
 //   secondWord = temporaryVariable;
 //   alert('The first word after swapping = ' + firstWord + '\n' + 'The second word after swapping = '+ secondWord);
-// // ________________________ small-project- 19(swap to numbers)______________________ 
+// // ________________________ small-project- 20(swap to numbers)______________________ 
 //  var enter1stNumber = prompt('Enter first number');
 //  var enter2ndNumber = prompt('Enter second number');
 //  var enter3rdNumber = prompt('Enter third number');
@@ -196,7 +196,7 @@
 //  enter2ndNumber = enter3rdNumber;
 //  enter3rdNumber  = temporaryVariable;
 //  alert('The first no after swapping = ' + enter1stNumber + '\n' + 'The second no after swapping = ' + enter2ndNumber + '\n' + 'The third no after swapping = ' + enter3rdNumber);
-// // ________________________ small-project- 20(swap two numbers without temp variable)______________________ 
+// // ________________________ small-project- 21(swap two numbers without temp variable)______________________ 
 //           var num1 = +prompt('Enter first no');
 //            var num2 = +prompt('Enter second no');
 //            var a = num1 + num2;
@@ -205,7 +205,7 @@
 //            alert(b);
 //            var a = num1 - num2 ;
 //            alert(a);
-//           // ________________________ small-project- 21(swap First  & Last Letters of a 3 Lettrs word)______________________ 
+//           // ________________________ small-project- 22(swap First  & Last Letters of a 3 Lettrs word)______________________ 
 //                    var word = prompt('Enter three letter word like(cat)');
 //                    var first_Letter = word[0];
 //                    var middle_Letter = word[1];
@@ -213,7 +213,7 @@
 //                    var swapped = last_Letter + middle_Letter + first_Letter;
 //                    alert(swapped); 
                   
-//                   //  ________________________ small-project- 22(Extract Middle Letter of a 3-Letter word)______________________ 
+//                   //  ________________________ small-project- 23(Extract Middle Letter of a 3-Letter word)______________________ 
 //          var word = prompt('Enter three letter word like (dog)');
 //          alert('The word is before extraction = ' + word);
 //          var a = word[0];
@@ -221,7 +221,7 @@
 //          var c = word[2];
 //          alert('The word is after extraction = ' + b);
 
-       //  ________________________ small-project- 23(Extract Middle Letter of a 6-Letter word)______________________
+       //  ________________________ small-project- 24(Extract Middle Letter of a 6-Letter word)______________________
       //  var word = prompt('Enter word of 6-letters like(fellow)');
         //  we will extract its 5 no letter
         // first we show our word before operation 
@@ -233,7 +233,7 @@
         // var f = word[5];
         // alert('The five no in word is = ' + e);
         
-        //  ________________________ small-project- 24(reverse letter arrangement)______________________
+        //  ________________________ small-project- 25(reverse letter arrangement)______________________
 //         var word = prompt('Enter word consist of 5 letter like (Fahad)');
 //           //  first we show our word in alert before operation 
 //           alert('The user has give me word = ' + word);
@@ -246,4 +246,4 @@
 // //  now we reverse ;
 // var new_word = e+d+c+b+a;
 // alert('The reversed word is = ' + new_word);
-  //  ________________________ small-project- 24(Extract Middle Letter of a 3-Letter word)______________________
+ 
