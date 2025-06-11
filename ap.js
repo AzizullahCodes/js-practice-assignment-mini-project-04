@@ -19,18 +19,18 @@
 //  var total = num1 * num2;
 //  alert("The multiplication of first and second number is: " + total);
 // // ________________________ small-project- 03(calculator for a rectangle)______________________
-//  var width = prompt('Enter the width of rectangle');
-//  var height = prompt('Enter the height of rectangle');
+  var width = prompt('Enter the width of rectangle');
+  var height = prompt('Enter the height of rectangle');
 // // as we receive the height and width in string than first we 
 // // convert string to number 
-//  var widthInNumbers = +(width);
-//  var heightInNumbers = +(height);
+  var widthInNumbers = +(width);
+  var heightInNumbers = +(height);
 // // first we calculate area
-//  var area = widthInNumbers * heightInNumbers;
-//  alert("The area is: " + area); 
+  var area = widthInNumbers * heightInNumbers;
+  alert("The area is: " + area); 
 // // now we calculate perimeter 
-//  var perimeter = 2 * (widthInNumbers + heightInNumbers);
-//  alert("The perimeter is: " + perimeter);
+  var perimeter = 2 * (widthInNumbers + heightInNumbers);
+  alert("The perimeter is: " + perimeter);
 
 // // ________________________ small-project- 04(calculator for a rectangle)______________________
 
